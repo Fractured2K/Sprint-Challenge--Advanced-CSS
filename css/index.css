@@ -169,9 +169,13 @@ a {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding-top: 95px;
 }
 .navigation {
+  position: fixed;
+  width: 100%;
   background: #F6F6F6;
+  opacity: 0.95;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -343,7 +347,6 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 50px auto;
 }
 .blog .card {
   max-height: 440px;
@@ -391,4 +394,46 @@ footer {
   border: solid 1px #23293B;
   background: #F6F7F8;
   color: #23293B;
+}
+.blog .magazine {
+  margin-top: 50px;
+  text-align: center;
+}
+.blog .magazine h3 {
+  margin-bottom: 10px;
+}
+.blog .magazine .magazine-form {
+  display: flex;
+}
+.blog .magazine .magazine-form input {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #23293B;
+  padding: 10px;
+}
+.blog .magazine .magazine-form button {
+  border: none;
+  outline: none;
+  color: #F6F7F8;
+  background: #23293B;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.blog .magazine .magazine-form button:hover {
+  border: solid 1px #23293B;
+  background: #F6F7F8;
+  color: #23293B;
+}
+.blog footer {
+  margin-top: 50px;
+  width: 100%;
 }
