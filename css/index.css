@@ -180,14 +180,14 @@ a {
 }
 .navigation .navigation-items h1 {
   text-align: center;
-  margin: 15px 0;
+  margin-top: 15px;
   color: #23293B;
 }
 .navigation .navigation-items nav {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 10px;
+  margin: 15px 0;
 }
 .navigation .navigation-items nav a:not(:last-child) {
   margin-right: 1.8%;
