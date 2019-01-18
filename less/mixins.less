@@ -27,3 +27,12 @@
 .top-spacing() {
     margin-top: 50px;
 }
+
+.scale(@scale, @easing) {
+    transform: scale(@scale);
+    transition-timing-function: @easing;
+}
+
+.scale-time(@time) {
+    transition: @time;
+}

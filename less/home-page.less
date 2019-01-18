@@ -33,6 +33,12 @@
       border-radius: 20px;
       height: 100%;
 
+      .scale-time(0.3s);
+
+      &:hover {
+          .scale(1.1, ease-in-out);
+      }
+
       @media @mobile {
         width: 100%;
         margin: 20px 5%;
@@ -110,6 +116,12 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        .scale-time(0.3s);
+
+        &:hover {
+            .scale(1.1, ease-in-out);
+        }
       }
     }
   }
