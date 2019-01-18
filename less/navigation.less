@@ -1,1 +1,27 @@
-// Navigation code here
+.navigation {
+    background: @nav-bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .navigation-items {
+        width: 100%;
+
+        h1 {
+            text-align: center;
+            margin: 15px 0;
+            color: @header-font-color;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 10px;
+
+            a:not(:last-child) {
+                margin-right: 1.8%;
+            }
+        }
+    }
+}
