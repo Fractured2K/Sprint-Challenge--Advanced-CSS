@@ -43,7 +43,7 @@ Edit this document to include your answers after each question. Make sure to lea
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
 
-1. Adaptive sites will scale on a fixed layout size while responsive website respond to user's device regardless of it's size making it always clean and accessible.
+[A: 1.] Adaptive sites will scale on a fixed layout size while responsive website respond to user's device regardless of it's size making it always clean and accessible.
 
 2. Mobile first is exactly what it sounds like. Designing from the smallest screen in our case lets say a phone and working your way up to tablets/laptops/desktops/tvs etc.
 
