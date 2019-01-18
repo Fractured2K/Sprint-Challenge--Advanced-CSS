@@ -157,6 +157,7 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+  font-weight: 400;
 }
 a {
   font-size: 1.6rem;
@@ -180,17 +181,18 @@ a {
 }
 .navigation .navigation-items h1 {
   text-align: center;
-  margin-top: 15px;
+  margin: 15px 0;
   color: #23293B;
 }
 .navigation .navigation-items nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 .navigation .navigation-items nav a:not(:last-child) {
-  margin-right: 1.8%;
+  margin-right: 1.6%;
 }
 footer {
   color: #22283B;
@@ -201,6 +203,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -243,6 +248,24 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  color: #F6F7F8;
+  background: #23293B;
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  border: solid 1px #23293B;
+  background: #F6F7F8;
+  color: #23293B;
 }
 .home .walk .walk-img {
   width: 46%;

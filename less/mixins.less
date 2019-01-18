@@ -1,1 +1,25 @@
-// Mixins Here
+.center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-btn(@width, @height, @color, @bgcolor) {
+    color: @color;
+    background: @bgcolor;
+    width: @width;
+    height: @height;
+    line-height: @height;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        border: solid 1px @bgcolor;
+        background: @color;
+        color: @bgcolor;
+    }
+}
