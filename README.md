@@ -43,15 +43,15 @@ Edit this document to include your answers after each question. Make sure to lea
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
 
-[A: 1.] Adaptive sites will scale on a fixed layout size while responsive website respond to user's device regardless of it's size making it always clean and accessible.
+[A:] 1. Adaptive sites will scale on a fixed layout size while responsive website respond to user's device regardless of it's size making it always clean and accessible.
 
-[A: 2.] Mobile first is exactly what it sounds like. Designing from the smallest screen in our case lets say a phone and working your way up to tablets/laptops/desktops/tvs etc.
+[A:] 2. Mobile first is exactly what it sounds like. Designing from the smallest screen in our case lets say a phone and working your way up to tablets/laptops/desktops/tvs etc.
 
-[A: 3.] It allows use to use base 10 for rem units e.g if I wanted a 28px font but I'm using rem units I could do 2.8rem instead of 1.75rem making it much easier and efficient to code.
+[A:] 3. It allows use to use base 10 for rem units e.g if I wanted a 28px font but I'm using rem units I could do 2.8rem instead of 1.75rem making it much easier and efficient to code.
 
-[A: 4.] I would describe preprocessing as an extension of css with a better syntax. That keeps the original fucntionality but making it much better with things like mixins, functions, modular code to keep everything clean.
+[A:] 4. I would describe preprocessing as an extension of css with a better syntax. That keeps the original fucntionality but making it much better with things like mixins, functions, modular code to keep everything clean.
 
-[A: 5.] My favorite concept is mixins. I think they allow for rapid development and more concise code. Mixins also have given me the most trouble as they are tricky at first but once you learn how to use them they great.
+[A:] 5. My favorite concept is mixins. I think they allow for rapid development and more concise code. Mixins also have given me the most trouble as they are tricky at first but once you learn how to use them they great.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
