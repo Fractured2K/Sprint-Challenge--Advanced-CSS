@@ -241,9 +241,7 @@ footer {
   }
 }
 @media (max-width: 500px) {
-  .home .space-images .sky {
-    display: none;
-  }
+  .home .space-images .sky,
   .home .space-images .launch {
     display: none;
   }
@@ -339,4 +337,58 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.blog .card {
+  max-height: 440px;
+  height: 100%;
+  max-width: 380px;
+  width: 100%;
+  margin: 10px;
+  background: #F6F6F6;
+  border-radius: 5px;
+}
+.blog .card img {
+  max-height: 180px;
+  max-width: 400px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.blog .card h2 {
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+.blog .card p {
+  padding: 0 20px;
+}
+.blog .card button {
+  margin-top: 10px;
+  margin: 20px;
+  border: none;
+  outline: none;
+  color: #F6F7F8;
+  background: #23293B;
+  width: 100px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.blog .card button:hover {
+  border: solid 1px #23293B;
+  background: #F6F7F8;
+  color: #23293B;
 }
