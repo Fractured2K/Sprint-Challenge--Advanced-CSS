@@ -4,6 +4,14 @@
 
   .intro {
 
+    img {
+      border-radius: 5px;
+
+      @media @mobile {
+        width: 100%;
+      }
+    }
+
     h2 {
       padding: 15px;
     }
@@ -11,7 +19,7 @@
     p {
       padding:0 15px;
     }
-  
+
   }
 
   .space-images {
@@ -24,6 +32,23 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      .scale-time(0.3s);
+
+      &:hover {
+          .scale(1.1, ease-in-out);
+      }
+
+      @media @mobile {
+        width: 100%;
+        margin: 20px 5%;
+      }
+    }
+
+    @media @mobile {
+        .sky, .launch {
+            display: none;
+        }
     }
   }
 
@@ -46,8 +71,19 @@
     display: flex;
     justify-content: center;
 
+    @media @mobile, @tablet {
+        margin-top: 20px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
     .walk-text {
       width: 50%;
+
+      @media @mobile, @tablet {
+        width: 100%;
+        margin-top: 20px;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -58,17 +94,34 @@
       }
 
       .btn {
+        .primary-btn(100px, 35px, @porcelain, @header-font-color);
+
+        @media @mobile {
+            .primary-btn(100%, 70px, @porcelain, @header-font-color)
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+
+      @media @mobile, @tablet {
+        order: -1;
+        width: 100%;
+        margin: 0;
+      }
+
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        .scale-time(0.3s);
+
+        &:hover {
+            .scale(1.1, ease-in-out);
+        }
       }
     }
   }

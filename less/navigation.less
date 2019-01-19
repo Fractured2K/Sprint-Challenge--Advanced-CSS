@@ -1,1 +1,31 @@
-// Navigation code here
+.navigation {
+    position: fixed;
+    width: 100%;
+    background: @nav-bg;
+    opacity: 0.95;
+    .center();
+
+    .navigation-items {
+        width: 100%;
+
+        h1 {
+            text-align: center;
+            margin: 15px 0;
+            color: @header-font-color;
+        }
+
+        nav {
+            .center();
+            width: 100%;
+            margin: 10px 0;
+
+            a:not(:last-child) {
+                margin-right: 1.6%;
+
+                @media @mobile {
+                    margin-right: 6%;
+                }
+            }
+        }
+    }
+}
